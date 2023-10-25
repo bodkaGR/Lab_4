@@ -211,7 +211,7 @@
 
     .box{
         height: 90%;
-        width: 80%;
+        min-width: 80%;
         border-radius: 10px;
         display: grid;
         grid-template-rows: 1fr 1fr 0.3fr;
