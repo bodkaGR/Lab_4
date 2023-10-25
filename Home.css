@@ -1,0 +1,246 @@
+@media (min-width: 768px){
+    body{
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        grid-template-areas:
+    "header"
+    "main_container"
+    "footer";
+        grid-template-rows: 0.5fr 6fr 0.5fr;
+    }
+
+    header{
+        display: grid;
+        grid-template-columns: 10fr 0.5fr;
+        align-items: center;
+    }
+
+    #menu_img{
+        width: 40px;
+    }
+
+    .menu_button{
+        border: none;
+        background-color: white;
+    }
+
+    .main_container{
+        display: grid;
+        grid-area: main_container;
+        min-height: 870px;
+        grid-template-rows: 1fr 3fr;
+        justify-items: center;
+        background-color: #D6EDFF;
+    }
+
+    .container_text{
+        height: 100%;
+        width: 40%;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+
+    h2{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        font-size: 40px;
+        color: #0077B6;
+    }
+
+    span{
+        font-size: 30px;
+        color: #0077B6;
+    }
+
+    .items{
+        display: flex;
+        position: relative;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .line{
+        flex: 1;
+        height: 25%;
+        background-color: #FA824B;
+    }
+
+    .boxes{
+        flex: 1;
+        display: grid;
+        justify-items: center;
+        position: absolute;
+        height: 75%;
+        width: 100%;
+    }
+
+    .inside_box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        width: 65%;
+    }
+
+    .box{
+        height: 100%;
+        width: 80%;
+        border-radius: 10px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 0.3fr;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        overflow: hidden;
+    }
+
+    .boxes_button{
+        height: 50%;
+        width: 50%;
+        font-size: 20px;
+        background-color: #FA824B;
+        transition: background-color 0.3s;
+        color: white;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .boxes_button:hover{
+        background-color: #FFAC81;
+    }
+
+    footer{
+        display: grid;
+        background-color: #343330;
+        color: white;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    body{
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        grid-template-areas:
+    "header"
+    "main_container"
+    "footer";
+        grid-template-rows: 0.5fr 6fr 0.5fr;
+    }
+
+    header{
+        display: grid;
+        grid-template-columns: 10fr 0.5fr;
+        align-items: center;
+    }
+
+    #menu_img{
+        width: 40px;
+    }
+
+    .menu_button{
+        border: none;
+        background-color: white;
+    }
+
+    .main_container{
+        display: grid;
+        grid-area: main_container;
+        min-height: 870px;
+        grid-template-rows: 1fr 3fr;
+        justify-items: center;
+        background-color: #D6EDFF;
+    }
+
+    .container_text{
+        height: 100%;
+        width: 40%;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+
+    h2{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        font-size: 40px;
+        color: #0077B6;
+    }
+
+    span{
+        font-size: 30px;
+        color: #0077B6;
+    }
+
+    .items{
+        display: flex;
+        position: relative;
+        height: 1700px;
+        width: 100%;
+    }
+
+    .line{
+        flex: 1;
+        margin-top: 100px;
+        height: 15%;
+        background-color: #FA824B;
+    }
+
+    .boxes{
+        flex: 1;
+        display: grid;
+        justify-items: center;
+        position: absolute;
+        height: 75%;
+        width: 100%;
+    }
+
+    .inside_box{
+        display: grid;
+        justify-items: center;
+        width: 65%;
+    }
+
+    .box{
+        height: 90%;
+        width: 80%;
+        border-radius: 10px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 0.3fr;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        overflow: hidden;
+    }
+
+    .boxes_button{
+        height: 50%;
+        width: 50%;
+        font-size: 20px;
+        background-color: #FA824B;
+        transition: background-color 0.3s;
+        color: white;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .boxes_button:hover{
+        background-color: #FFAC81;
+    }
+
+    footer{
+        display: grid;
+        background-color: #343330;
+        color: white;
+        justify-content: center;
+    }
+}
